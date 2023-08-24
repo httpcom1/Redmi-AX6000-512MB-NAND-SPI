@@ -17,7 +17,6 @@
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 echo 'src-git messense https://github.com/messense/aliyundrive-webdav' >>feeds.conf.default
-# echo 'src-git passwall https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
 
 ## 修改image/mt7986.mk中的BLOCKSIZE := 128k为256k，PAGESIZE := 2048为4096，好像可有可无
 # sed -i '/mt7986a-xiaomi-redmi-router-ax6000-uboot/{n;n;n;n;s/128k/256k/;}' target/linux/mediatek/image/mt7986.mk
